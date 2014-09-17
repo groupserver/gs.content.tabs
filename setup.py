@@ -8,8 +8,8 @@ version = get_version()
 setup(name='gs.content.tabs',
     version=version,
     description="jQuery UI Tab support for GroupServer",
-    long_description=open("README.txt").read() + "\n" +
-                      open(os.path.join("docs", "HISTORY.txt")).read(),
+    long_description=open("README.rst").read() + "\n" +
+                      open(os.path.join("docs", "HISTORY.rst")).read(),
     classifiers=[
       "Development Status :: 4 - Beta",
       "Environment :: Web Environment",
